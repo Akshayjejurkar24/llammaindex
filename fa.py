@@ -101,3 +101,5 @@ def query_pdf(query: str = Query(..., description="Enter your question about the
 
     except Exception as e:
         return JSONResponse(status_code=500, content={"error": str(e)})
+
+        return JSONResponse(status_code=500, content={"error": str(e)})
